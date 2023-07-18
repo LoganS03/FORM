@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<form class="form" id="form">
+				<h2>Send your info</h2>
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input id="name" name="firstname" type="text" value="Ali" />
+				</div>
+				<div class="form-group">
+					<label for="surname">Surname</label>
+					<input id="surname" name="surname" type="text" value="Odiljonov" />
+				</div>
+				<div class="form-group">
+					<label for="age">Age</label>
+					<input id="age" name="age" type="number" value="24" />
+				</div>
+				<label for="plan">Plan</label>
+				<select id="plan" name="plan">
+					<option value="free">Free</option>
+					<option value="basic">Basic</option>
+					<option value="pro">Pro</option>
+				</select>
+				<label class="checkbox">
+					<input name="terms" type="checkbox" checked />
+					Do you agree to confidentiality?
+				</label>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
